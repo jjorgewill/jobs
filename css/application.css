@@ -1,0 +1,262 @@
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(http://fonts.gstatic.com/s/raleway/v9/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*nav-bar*/
+
+.whiteColor {
+    color: #ffffff !important;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    cursor: pointer;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    background: transparent;
+    border-color: transparent;
+    padding: 1%;
+}
+
+.navShadows {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    border: transparent;
+    box-shadow: 3px 3px 22px #000;
+    padding: 0;
+}
+
+/*modal*/
+.btnSignIn {
+    background-color: transparent;
+    box-shadow: 0px 0px 17px rgb(99, 201, 132) inset;
+    cursor: pointer;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    padding: 2% 10%;
+    text-transform: uppercase;
+}
+
+.btnSignIn:hover, .btnBegin:hover {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    color: white;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    border-bottom: 4px solid #FF4C00;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 4px solid #FF4C00;
+}
+
+.navbar-nav {
+    min-height: 54px;
+}
+
+a, button {
+    outline: none !important;
+}
+
+/*register*/
+.container {
+    overflow: hidden;
+}
+
+#register h2 {
+    font-size: 1.6em;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.btnLoadCv {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    box-shadow: 0px 0px 17px rgb(99, 201, 132) inset;
+    color: #ffffff;
+    font-weight: bold;
+}
+/*skill*/
+
+li.select2-search-choice {
+    margin-top: 9px !important;
+}
+
+li.select2-search-field input {
+    height: 34px !important;
+}
+
+.btnBegin {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    box-shadow: 0px 0px 17px rgb(99, 201, 132) inset;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 2%;
+    padding: 13px 68px;
+    text-transform: uppercase;
+}
+
+/*footer*/
+
+footer {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    border: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0px 3px 22px #000;
+    padding: 1%;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+    #register {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .termConditions {
+        margin-top: 15% !important;
+        margin-bottom: 2% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .termConditions {
+        margin-bottom: 2% !important;
+    }
+
+    #register {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .termConditions {
+        margin-bottom: 2% !important;
+    }
+
+    #register {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .userModal {
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #FF4C00 !important;
+        border-bottom: none !important;
+    }
+
+    .termConditions {
+        margin-bottom: 2% !important;
+    }
+
+    #register {
+        padding-top: 9%;
+        padding-bottom: 6%;
+    }
+}
+
+@media (max-width: 480px) {
+    .later{
+        margin-top: 3%;
+        margin-bottom:3%;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #FF4C00 !important;
+        border-bottom: none !important;
+    }
+
+    #register {
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    .termConditions {
+        margin-bottom: 2% !important;
+    }
+}

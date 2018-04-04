@@ -1,0 +1,507 @@
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(http://fonts.gstatic.com/s/raleway/v9/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*nav-bar*/
+
+.whiteColor {
+    color: #ffffff !important;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    cursor: pointer;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    background: transparent;
+    border-color: transparent;
+    padding: 1%;
+}
+
+.navShadows {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, rgba(0, 174, 104, 0.44));
+    border: transparent;
+    box-shadow: 3px 3px 22px #000;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 4px solid #FF4C00;
+}
+
+.navbar-nav {
+    min-height: 54px;
+}
+
+#notif .activeN {
+    border-radius: 49%;
+    background-color: #FF4C00;
+    color: white;
+    float: left;
+    font-size: .85em;
+    height: 20px;
+    left: 21px;
+    padding: 0px 4px;
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    z-index: 1;
+}
+
+/*profile*/
+#profileS {
+    margin-top: 9%;
+    margin-bottom: 5%;
+    min-height: 400px;
+}
+
+.applicants, .update {
+    padding-top: 3%;
+}
+
+/*skill*/
+
+li.select2-search-choice {
+    margin-top: 9px !important;
+}
+
+li.select2-search-field input {
+    height: 34px !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    color: white;
+}
+
+.btnLoadCv {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    color: white;
+}
+
+.btnSend {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    color: white;
+    margin: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.btnRenew {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    color: white;
+    margin: 1%;
+    padding: 2% 6%;
+}
+
+.btnRenew:hover {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(#00AE68, #006B23);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(#00AE68, #006B23);
+    color: white;
+    text-decoration: none;
+}
+
+/*applicant*/
+.explicate {
+    text-align: justify;
+    padding: 1%;
+}
+
+/*footer*/
+
+footer {
+    background: url("../img/motivo/rowsback.png"), -webkit-linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    background: url("../img/motivo/rowsback.png"), -moz-linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    background: url("../img/motivo/rowsback.png"), -o-linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    background: url("../img/motivo/rowsback.png"), linear-gradient(rgba(0, 174, 104, 0.44), #00AE68);
+    border: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0px 3px 22px #000;
+    padding: 1%;
+    text-align: center;
+}
+
+
+
+#notif .dropdown-menu {
+    left: -264px;
+    min-width: 335px;
+}
+
+.dropdown-menu > .arrow {
+    top: -18px;
+    left: 50%;
+    margin-left: -11px;
+    border-top-width: 0;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0, 0, 0, .25);
+}
+
+.dropdown-menu > .arrow {
+    border-width: 11px;
+}
+
+.dropdown-menu > .arrow, .dropdown-menu > .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.dropdown-menu > .arrow:after {
+    border-width: 13px;
+    top: -5px;
+    margin-left: -10px;
+    content: " ";
+    border-top-width: 0;
+    border-bottom-color: #fff;
+}
+
+.dropdown-menu li:nth-child(odd) {
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+}
+
+.dropdown-menu li p{
+    color: #000;
+}
+.dropdown-menu li {
+    color: rgba(0, 0, 0, 0.52);
+    font-size: .8em;
+    padding: 1% 4% 1% 4%;
+    text-align: justify;
+}
+
+@media (min-width: 1200px) {
+
+    .iconNotification {
+        float: left;
+        margin-right: 1%;
+    }
+
+
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: #000;
+    }
+
+    .nav-tabs > li > a {
+        color: #989494;
+    }
+
+    .nav-tabs > li > a:hover {
+        border-color: #006B23 #00AE68 #006B23;
+        background: rgba(112, 247, 156, 0.62);
+        color: #000;
+    }
+
+    .notifList li {
+        list-style: none;
+        text-align: justify;
+        padding-bottom: 0;
+        padding-right: 4%;
+        padding-top: 3%;
+    }
+
+    .notifTime {
+        color: #9E9C9C;
+    }
+
+    .iconNotification {
+        float: left;
+        margin: 1%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #FF4C00 !important;
+        border-bottom: none !important;
+    }
+
+    #profileS {
+        margin-top: 16%;
+    }
+
+    .sendModify {
+        text-align: center;
+    }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: #000;
+    }
+
+    .nav-tabs > li > a {
+        color: #989494;
+    }
+
+    .nav-tabs > li > a:hover {
+        border-color: #006B23 #00AE68 #006B23;
+        background: rgba(112, 247, 156, 0.62);
+        color: #000;
+    }
+
+    .notifList li {
+        list-style: none;
+        text-align: justify;
+        padding-bottom: 3%;
+        padding-right: 4%;
+        padding-top: 3%;
+    }
+
+    .notifTime {
+        color: #9E9C9C;
+    }
+
+    .iconNotification {
+        float: left;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #FF4C00 !important;
+        border-bottom: none !important;
+    }
+
+    #profileS {
+        margin-top: 16%;
+    }
+
+    .sendModify {
+        text-align: center;
+    }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: #000;
+    }
+
+    .nav-tabs > li > a {
+        color: #989494;
+    }
+
+    .nav-tabs > li > a:hover {
+        border-color: #006B23 #00AE68 #006B23;
+        background: rgba(112, 247, 156, 0.62);
+        color: #000;
+    }
+
+    .notifList li {
+        list-style: none;
+        text-align: justify;
+        padding-bottom: 3%;
+        padding-right: 4%;
+        padding-top: 3%;
+    }
+
+    .notifTime {
+        color: #9E9C9C;
+    }
+
+    .iconNotification {
+        float: left;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #FF4C00 !important;
+        border-bottom: none !important;
+    }
+
+    #profileS {
+        margin-top: 16%;
+    }
+
+    .sendModify {
+        text-align: center;
+    }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: #000;
+    }
+
+    .nav-tabs > li > a {
+        color: #989494;
+    }
+
+    .nav-tabs > li > a:hover {
+        border-color: #006B23 #00AE68 #006B23;
+        background: rgba(112, 247, 156, 0.62);
+        color: #000;
+    }
+
+    .notifList li {
+        list-style: none;
+        text-align: justify;
+        padding-bottom: 3%;
+        padding-right: 4%;
+        padding-top: 3%;
+    }
+
+    .notifTime {
+        color: #9E9C9C;
+    }
+
+    .iconNotification {
+        float: left;
+        margin: 1%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #FF4C00 !important;
+        border-bottom: none !important;
+    }
+
+    #profileS {
+        margin-top: 16%;
+    }
+
+    .sendModify {
+        text-align: center;
+    }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: #000;
+    }
+
+    .nav-tabs > li > a {
+        color: #989494;
+    }
+
+    .nav-tabs > li > a:hover {
+        border-color: #006B23 #00AE68 #006B23;
+        background: rgba(112, 247, 156, 0.62);
+        color: #000;
+    }
+
+    .notifList li {
+        list-style: none;
+        text-align: justify;
+        padding-bottom: 3%;
+        padding-right: 4%;
+        padding-top: 3%;
+    }
+
+    .notifTime {
+        color: #9E9C9C;
+    }
+
+    .iconNotification {
+        float: left;
+        margin: 1%;
+    }
+
+}
